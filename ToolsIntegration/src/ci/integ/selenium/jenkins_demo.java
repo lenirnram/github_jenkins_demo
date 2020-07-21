@@ -2,7 +2,6 @@ package ci.integ.selenium;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
  
@@ -14,9 +13,9 @@ public void testGoogleSearch(){
  
 System.setProperty("webdriver.chrome.driver", "lib\\chromedriver.exe");
 WebDriver driver =new ChromeDriver();
-//it will open the goggle page
+//it will open the google page
 driver.get("http://google.in"); 
-//we expect the title “Google “ should be present 
+//we expect the title “Google “ should be present 	
 String Expectedtitle = "Google";
 //it will fetch the actual title 
 String Actualtitle = driver.getTitle();
