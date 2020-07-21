@@ -14,7 +14,7 @@ public void testGoogleSearch(){
 System.setProperty("webdriver.chrome.driver", "lib\\chromedriver.exe");
 WebDriver driver =new ChromeDriver();
 //it will open the google page
-driver.get("https://www.guru99.com/"); 
+driver.get("https://www.guru99.com"); 
 //we expect the title “Google “ should be present 	
 String Expectedtitle = "Google";
 //it will fetch the actual title 
