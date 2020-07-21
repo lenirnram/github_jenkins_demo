@@ -1,1 +1,1 @@
-java -cp C:\Users\Admin\Jenkins\ToolsIntegration\ToolsIntegration\lib\*;C:\Users\Admin\Jenkins\ToolsIntegration\ToolsIntegration\bin org.testng.TestNG testng.xml
+java -cp C:\Users\Admin\.jenkins\workspace\Jenkins_TestNG_demo\ToolsIntegration\lib\*;C:\Users\Admin\.jenkins\workspace\Jenkins_TestNG_demo\ToolsIntegration\bin org.testng.TestNG testng.xml
